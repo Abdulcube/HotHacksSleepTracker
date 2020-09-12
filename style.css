@@ -105,7 +105,7 @@ a:hover {
 
 .journal-entry {
 	width: 90%;
-	height: 90%;
+	height: 85%;
 	resize: none;
 	margin: auto;
 }
@@ -141,4 +141,20 @@ a:hover {
 
 .add {
 	color: #00ffa7;
+}
+
+.save-button {
+	background-color: #00ffa7;
+	border-radius: 10%;
+	border: none;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.save {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
