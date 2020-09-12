@@ -88,6 +88,62 @@ a:hover{
 
 }
 
+.journal-container{
+	background-color: pink;
+	width: 70vw;
+	margin-left: 350px;
+	padding-top: 60px;
+
+}
+
+.journal-module{
+	width: 450px;
+	height: 80vh;
+	background-color: #fff;
+	border-radius: 15px;
+	padding: 20px;
+	float: left;
+
+}
+
+.journal-entry{
+	width: 90%;
+	height: 90%;
+	resize: none;
+	margin: auto;
+}
+
+.title{
+	font-family: 'Open Sans';
+	border: none;
+	font-size: 36px;
+	border-bottom-width: 1px;
+	border-bottom-color: #D8D8D8;
+	border-bottom-style: solid;
+}
+
+.journal-entry{
+	margin-top: 15px;
+	font-family: 'Open Sans';
+	border: none;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+.title:focus{
+	outline: none;
+}
+
+.journal-entry:focus{
+	outline: none;
+}
+
+::placeholder{
+	color:  #D8D8D8;
+}
+
+
+
 
 
 
