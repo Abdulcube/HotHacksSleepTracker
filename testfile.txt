@@ -1,0 +1,5 @@
+Quality of Sleep  Hours of Sleep  Number of snoozes  Date
+0 5 8 09/12/2020
+1 7 2 09/11/2020
+1 6 4 09/10/2020
+2 9 1 09/09/2020
