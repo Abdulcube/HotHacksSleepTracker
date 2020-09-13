@@ -8,8 +8,6 @@ import matplotlib.pyplot as plot
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY']= '3a22684e1daddc472ed4211d667d0fb6'
-
 
 @app.route("/")
 @app.route("/home")
