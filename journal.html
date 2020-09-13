@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{% block title %} {% endblock %}</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="sidebar" id="sidebar">
+			<div class="profile">
+				<img class="pro-pic" src="images/profile.jpg" />
+
+				<div class="pro-info">
+					<p>Mike Smith</p>
+					<a href="index.html">Profile</a>
+				</div>
+			</div>
+			<div class="menu">
+				<h6 class="menu-label">MENU</h6>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="sleep.html">Sleep Graph</a></li>
+					<li><a href="reads.html">Recommended Reads</a></li>
+				</ul>
+			</div>
+
+			<div class="journal">
+				<h6 class="journal-label">DREAM JOURNAL</h6>
+				<a class="add" onclick="addEntry()">+ Add Entry</a>
+			</div>
+
+			<div class="footer">
+				<h6><a href="#">LOGOUT</a></h6>
+			</div>
+		</div>
+		<div class="journal-container" id="journal-container">
+	</div>
+		<template id="tmpl"><div class="journal-module">
+			<input class="title" type="text" placeholder="Journal Title..." />
+			<p class="update-time" id="date">Last Updated: </p>
+			<textarea
+				class="journal-entry"
+				rows="5"
+				cols="50"
+				placeholder="Journal Entry..."
+			></textarea>
+			<div class="button-container">
+				<button class="bottom-button" onclick="saveEntry()">Save</button>
+				<button class="bottom-button" onclick="deleteEntry()">Delete</button>
+			</div>
+		</div>
+	</div></template>
+	<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>

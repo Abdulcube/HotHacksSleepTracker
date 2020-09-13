@@ -89,8 +89,10 @@ a:hover {
 
 .journal-container {
 	width: 70vw;
+	height: 92vh;
 	margin-left: 350px;
 	padding-top: 60px;
+	overflow: scroll;
 }
 
 .journal-module {
