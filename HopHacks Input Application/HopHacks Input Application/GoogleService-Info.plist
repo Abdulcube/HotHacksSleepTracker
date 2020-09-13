@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>613113657664-q4a5p1auimrjkculi6sqpd9nam204ehc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.613113657664-q4a5p1auimrjkculi6sqpd9nam204ehc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDnAFqx9Wqzpl3IN7k9BLOe-5f1gyMHUWI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>613113657664</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Abdulcube.HopHacks-Input-Application</string>
+	<key>PROJECT_ID</key>
+	<string>hothacks-4515c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hothacks-4515c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:613113657664:ios:b690070da31a10e19f62a5</string>
+	<key>DATABASE_URL</key>
+	<string>https://hothacks-4515c.firebaseio.com</string>
+</dict>
+</plist>

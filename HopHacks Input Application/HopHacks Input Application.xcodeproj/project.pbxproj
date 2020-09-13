@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4807A83F98D794840234C8BC /* Pods_HopHacks_Input_Application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C8E491F69F7924E5E769D9 /* Pods_HopHacks_Input_Application.framework */; };
+		EE9447B3250D7C2400A4FE50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9447B2250D7C2400A4FE50 /* AppDelegate.swift */; };
+		EE9447B5250D7C2400A4FE50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9447B4250D7C2400A4FE50 /* SceneDelegate.swift */; };
+		EE9447B7250D7C2400A4FE50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9447B6250D7C2400A4FE50 /* ContentView.swift */; };
+		EE9447B9250D7C2600A4FE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9447B8250D7C2600A4FE50 /* Assets.xcassets */; };
+		EE9447BC250D7C2600A4FE50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9447BB250D7C2600A4FE50 /* Preview Assets.xcassets */; };
+		EE9447BF250D7C2600A4FE50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9447BD250D7C2600A4FE50 /* LaunchScreen.storyboard */; };
+		EE9447C7250D7E7B00A4FE50 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9447C6250D7E7B00A4FE50 /* CircleImage.swift */; };
+		EE9447C9250D96FE00A4FE50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE9447C8250D96FE00A4FE50 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33C8E491F69F7924E5E769D9 /* Pods_HopHacks_Input_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HopHacks_Input_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		789A27FD7721AFA767502F45 /* Pods-HopHacks Input Application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopHacks Input Application.debug.xcconfig"; path = "Target Support Files/Pods-HopHacks Input Application/Pods-HopHacks Input Application.debug.xcconfig"; sourceTree = "<group>"; };
+		8699B1E13CB6684FEC15B2E5 /* Pods-HopHacks Input Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopHacks Input Application.release.xcconfig"; path = "Target Support Files/Pods-HopHacks Input Application/Pods-HopHacks Input Application.release.xcconfig"; sourceTree = "<group>"; };
+		EE9447AF250D7C2400A4FE50 /* HopHacks Input Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HopHacks Input Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9447B2250D7C2400A4FE50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE9447B4250D7C2400A4FE50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE9447B6250D7C2400A4FE50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE9447B8250D7C2600A4FE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE9447BB250D7C2600A4FE50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE9447BE250D7C2600A4FE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE9447C0250D7C2600A4FE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9447C6250D7E7B00A4FE50 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		EE9447C8250D96FE00A4FE50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE9447AC250D7C2400A4FE50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4807A83F98D794840234C8BC /* Pods_HopHacks_Input_Application.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A16FCEA50D527FBDF11D870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33C8E491F69F7924E5E769D9 /* Pods_HopHacks_Input_Application.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F8A85B00CE670081945088 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				789A27FD7721AFA767502F45 /* Pods-HopHacks Input Application.debug.xcconfig */,
+				8699B1E13CB6684FEC15B2E5 /* Pods-HopHacks Input Application.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE9447A6250D7C2400A4FE50 = {
+			isa = PBXGroup;
+			children = (
+				EE9447B1250D7C2400A4FE50 /* HopHacks Input Application */,
+				EE9447B0250D7C2400A4FE50 /* Products */,
+				B2F8A85B00CE670081945088 /* Pods */,
+				2A16FCEA50D527FBDF11D870 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9447B0250D7C2400A4FE50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9447AF250D7C2400A4FE50 /* HopHacks Input Application.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9447B1250D7C2400A4FE50 /* HopHacks Input Application */ = {
+			isa = PBXGroup;
+			children = (
+				EE9447B2250D7C2400A4FE50 /* AppDelegate.swift */,
+				EE9447B4250D7C2400A4FE50 /* SceneDelegate.swift */,
+				EE9447B6250D7C2400A4FE50 /* ContentView.swift */,
+				EE9447C6250D7E7B00A4FE50 /* CircleImage.swift */,
+				EE9447B8250D7C2600A4FE50 /* Assets.xcassets */,
+				EE9447BD250D7C2600A4FE50 /* LaunchScreen.storyboard */,
+				EE9447C8250D96FE00A4FE50 /* GoogleService-Info.plist */,
+				EE9447C0250D7C2600A4FE50 /* Info.plist */,
+				EE9447BA250D7C2600A4FE50 /* Preview Content */,
+			);
+			path = "HopHacks Input Application";
+			sourceTree = "<group>";
+		};
+		EE9447BA250D7C2600A4FE50 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE9447BB250D7C2600A4FE50 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE9447AE250D7C2400A4FE50 /* HopHacks Input Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9447C3250D7C2600A4FE50 /* Build configuration list for PBXNativeTarget "HopHacks Input Application" */;
+			buildPhases = (
+				625411843D8C952451FEF439 /* [CP] Check Pods Manifest.lock */,
+				EE9447AB250D7C2400A4FE50 /* Sources */,
+				EE9447AC250D7C2400A4FE50 /* Frameworks */,
+				EE9447AD250D7C2400A4FE50 /* Resources */,
+				45390ADEF8EB8914D9A7E41D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HopHacks Input Application";
+			productName = "HopHacks Input Application";
+			productReference = EE9447AF250D7C2400A4FE50 /* HopHacks Input Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9447A7250D7C2400A4FE50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Abdulrahman Abdulrahman";
+				TargetAttributes = {
+					EE9447AE250D7C2400A4FE50 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = EE9447AA250D7C2400A4FE50 /* Build configuration list for PBXProject "HopHacks Input Application" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE9447A6250D7C2400A4FE50;
+			productRefGroup = EE9447B0250D7C2400A4FE50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9447AE250D7C2400A4FE50 /* HopHacks Input Application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9447AD250D7C2400A4FE50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9447BF250D7C2600A4FE50 /* LaunchScreen.storyboard in Resources */,
+				EE9447C9250D96FE00A4FE50 /* GoogleService-Info.plist in Resources */,
+				EE9447BC250D7C2600A4FE50 /* Preview Assets.xcassets in Resources */,
+				EE9447B9250D7C2600A4FE50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45390ADEF8EB8914D9A7E41D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HopHacks Input Application/Pods-HopHacks Input Application-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HopHacks Input Application/Pods-HopHacks Input Application-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HopHacks Input Application/Pods-HopHacks Input Application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		625411843D8C952451FEF439 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HopHacks Input Application-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9447AB250D7C2400A4FE50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9447B3250D7C2400A4FE50 /* AppDelegate.swift in Sources */,
+				EE9447C7250D7E7B00A4FE50 /* CircleImage.swift in Sources */,
+				EE9447B5250D7C2400A4FE50 /* SceneDelegate.swift in Sources */,
+				EE9447B7250D7C2400A4FE50 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE9447BD250D7C2600A4FE50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9447BE250D7C2600A4FE50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE9447C1250D7C2600A4FE50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE9447C2250D7C2600A4FE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE9447C4250D7C2600A4FE50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789A27FD7721AFA767502F45 /* Pods-HopHacks Input Application.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HopHacks Input Application/Preview Content\"";
+				DEVELOPMENT_TEAM = 89NBMVG538;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HopHacks Input Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdulcube.HopHacks-Input-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE9447C5250D7C2600A4FE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8699B1E13CB6684FEC15B2E5 /* Pods-HopHacks Input Application.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HopHacks Input Application/Preview Content\"";
+				DEVELOPMENT_TEAM = 89NBMVG538;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HopHacks Input Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdulcube.HopHacks-Input-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9447AA250D7C2400A4FE50 /* Build configuration list for PBXProject "HopHacks Input Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9447C1250D7C2600A4FE50 /* Debug */,
+				EE9447C2250D7C2600A4FE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9447C3250D7C2600A4FE50 /* Build configuration list for PBXNativeTarget "HopHacks Input Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9447C4250D7C2600A4FE50 /* Debug */,
+				EE9447C5250D7C2600A4FE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE9447A7250D7C2400A4FE50 /* Project object */;
+}
